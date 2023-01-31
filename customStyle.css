@@ -1,0 +1,115 @@
+.custom-navbar-nav{
+  display: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a:hover {
+  color: rgba(0,0,0,.70);
+}
+
+.custom-nav-item{
+  display: inline-block;
+}
+
+.custom-nav-link{
+  padding: 8px 8px;
+  color: rgba(0,0,0,.55);
+}
+
+@media(max-width: 768px){
+  .custom-navbar-nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+}
+
+@media(max-width: 355px){
+  .custom-navbar-nav{
+    display: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+}
+
+@media(max-width: 768px){
+  .display-off-md{
+    display: none;
+  }
+}
+
+.bg-pop3d{
+  background-color: #ccf5ef;
+  background-image: linear-gradient(#f6fffe, #befff5);
+}
+
+.text-yellowGold{
+  color: #e4c046;
+}
+
+.text-purple{
+  color: #7d268e;
+}
+
+.transparent-card{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text-white{
+  color: white;
+}
+
+.bg-yellow{
+  background-color: #fce205;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-purple{
+  background-color: #fce205;
+}
+
+.btn-purple{
+  background-color: #7d268e;
+}
+
+@media (min-width: 768px) {
+  .bg-fill-screen-md{
+    height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-number-md{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .hide-img-lg{
+    display: none;
+  }
+}
+
+body, html{
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .bg-home {
+    background-image: url("img/3Dprinter-2416269_960_720.jpg");
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
